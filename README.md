@@ -1,50 +1,73 @@
-# 📄 AI Resume Analyzer
+# ⚡ Job Application Assistant
 
-An AI-powered web application that analyzes how well your resume matches a job description — built with Llama 3 and Streamlit.
+An AI-powered web app that gives job seekers a complete toolkit for landing interviews — built with Llama 3.3 70B and Streamlit.
 
-## 🔍 What it does
+🔗 **[Live Demo]https://ai-resume-analyzer-h4ryhvbqr7w54cnhnh5pcn.streamlit.app/**
 
-- Scores your resume against a job description (0-100)
-- Identifies matching skills and keywords
-- Highlights missing keywords you should add
-- Shows your strengths and suggests improvements
-- Provides an overall AI-generated summary
+## 🚀 Features
+
+### 📊 Resume Analyzer
+- Scores your resume against any job description (0–100)
+- Identifies matching skills and missing keywords
+- Highlights strengths and suggests improvements
+- Provides an AI-generated overall assessment
+
+### ✍️ Bullet Rewriter
+- Paste any weak resume bullet and get 3 powerful rewrites
+- Tailors rewrites to a target role and job description keywords
+- Explains why the new versions are stronger
+
+### 📄 Cover Letter Generator
+- Generates a tailored cover letter from your resume + job description
+- Choose your tone: Professional, Enthusiastic, Concise, or Storytelling
+- Avoids clichés and focuses on specific achievements
+
+### 🤖 ATS Simulator
+- Simulates how an Applicant Tracking System scans your resume
+- Returns a PASS/FAIL verdict with ATS compatibility score
+- Keyword-by-keyword match breakdown
+- Flags format issues and critical missing keywords
+- Tells you exactly how to pass the ATS
 
 ## 🛠️ Tech Stack
 
 - **Python**
 - **Streamlit** — web interface
-- **Groq API (Llama 3.3-70b)** — LLM for analysis
-- **Google Colab** — development environment
+- **Groq API (Llama 3.3 70B)** — LLM backbone
+- **Deployed on Streamlit Cloud**
 
-## 🚀 How to run locally
+## 💡 Why I Built This
+
+After going through my own job search, I wanted a tool that goes beyond basic resume scoring — something that actually helps you fix the problems and apply with confidence. This app covers the full application workflow in one place.
+
+## 🚀 Run Locally
 
 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
-cd ai-resume-analyzer
+   git clone https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
+   cd ai-resume-analyzer
 ```
 
 2. Install dependencies
 ```bash
-pip install streamlit groq
+   pip install streamlit groq
 ```
 
 3. Add your Groq API key
 ```bash
-export GROQ_API_KEY="your_key_here"
+   export GROQ_API_KEY="your_key_here"
 ```
 
 4. Run the app
 ```bash
-streamlit run app.py
+   streamlit run app.py
 ```
 
-## 💡 Why I built this
+## 📸 Screenshot
 
-After struggling with resume rejections during my own job search, I built this tool to help job seekers instantly understand how well their resume matches any job description and what to improve.
-
+![App Screenshot](screenshot.png)
 
 ## 👤 Author
 
-**Saibalaji Neeli** — [LinkedIn](https://www.linkedin.com/in/saibalaji-neeli-08225818b/) | [Portfolio](https://www.datascienceportfol.io/neelis)
+**Saibalaji Neeli**
+[LinkedIn](https://www.linkedin.com/in/saibalaji-neeli-08225818b/) · [Portfolio](https://www.datascienceportfol.io/neelis)

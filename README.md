@@ -63,9 +63,6 @@ After going through my own job search, I wanted a tool that goes beyond basic re
    streamlit run app.py
 ```
 
-## 📸 Screenshot
-
-![App Screenshot](screenshot.png)
 
 ## 👤 Author
 

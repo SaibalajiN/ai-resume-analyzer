@@ -69,7 +69,7 @@ html, body, .stApp {
 .stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"] { display: none !important; }
 
 .stTextArea textarea {
-    background: rgba(255,255,255,0.03) !important; border: 1px solid rgba(255,255,255,0.08) !important;
+    background: #1a1a2e !important; border: 1px solid rgba(255,255,255,0.08) !important;
     border-radius: 12px !important; color: #e8e6f0 !important; font-family: 'DM Sans', sans-serif !important;
     font-size: 0.88rem !important; line-height: 1.65 !important; padding: 1rem !important; transition: border-color 0.2s !important;
 }

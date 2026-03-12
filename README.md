@@ -44,9 +44,6 @@ streamlit run app.py
 
 After struggling with resume rejections during my own job search, I built this tool to help job seekers instantly understand how well their resume matches any job description and what to improve.
 
-## 📸 Screenshot
-
-![App Screenshot](screenshot.png)
 
 ## 👤 Author
 
